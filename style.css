@@ -1,0 +1,81 @@
+html {
+background-image: url(img/fon.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  color: #0099ef;
+  text-decoration: underline;
+}
+
+.page-title {
+  font-size: 36px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.blog-navigation {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  color: #ffffff;
+
+  background-color: #c0c0c0;
+  border: 5px solid #808080;
+}
+
+.blog-navigation h2 {
+  margin-top: 0;
+}
+
+.blog-navigation a {
+  color: #ffffff;
+}
+
+.skills dd {
+  margin: 0;
+  margin-bottom: 10px;
+
+  background-color: #e8e8e8;
+}
+
+.skills-level {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
+}
+
+footer {
+  margin-top: 30px;
+}
